@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+
+<script>
+  import CMS from 'netlify-cms-app'
+// Initialize the CMS object
+CMS.init()
+// Now the registry is available via the CMS object.
+CMS.registerPreviewTemplate('my-template', MyTemplate)
+</script>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -151,6 +159,7 @@ End Fixed Navigation
           <div class="post-image">
             <img class="img-fluid w-100" src="images/blog/post-1.jpg" alt="post-image">
           </div>
+          
           <!-- Post Content -->
           <div class="post-content">
             <h3>Cras Sed Elit Sit Amet.</h3>

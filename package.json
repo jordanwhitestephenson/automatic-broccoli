@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "netlify-cms-app": "^2.14.10"
+  }
+}
